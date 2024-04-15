@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+
+  <link rel="stylesheet" href="styles/index.css">
+
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" /> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div id="banner" class="flex justify-between d:px-16 lg:px-32 bg-gradient-to-r from-sky-400 to-blue-950">
+      <div id="social-icons" class="flex justify-center gap-1 text-white">
+        <div class="p-2 border-s-2 flex items-center">
+          <i data-lucide="twitter"></i>
+        </div>
+        <div class="p-2 border-s-2 flex items-center">
+          <i data-lucide="instagram"></i>
+        </div>
+        <div class="p-2 border-s-2 flex items-center">
+          <i data-lucide="facebook"></i>
+        </div>
+        <div class="p-2 border-s-2 flex items-center">
+          <i data-lucide="youtube"></i>
+        </div>
+        <div class="p-2 border-s-2 flex items-center border-e-2">
+          <i data-lucide="linkedin"></i>
+        </div>
+      </div>
+      <div class="px-4 py-3 flex items-center gap-4 text-white">
+        <p class="flex items-center gap-2"><i data-lucide="phone"></i> +92 348 1292229</p>
+        <p>|</p>
+        <p class="flex items-center gap-2"><i data-lucide="mail"></i> muhammadaneeb63@gmail.com</p>
+      </div>
+      <div class="px-4 py-3">
+        <button
+          class="py-2 px-6 uppercase text-white text-xs font-bold border-2 rounded-full hover:text-black hover:bg-white transition-all">Request
+          a Contact</button>
+      </div>
+    </div>
+    <nav class="flex justify-between items-center px-4 md:px-16 lg:px-32">
+      <div class="flex gap-3 items-center">
+        <div class="text-6xl text-blue-400">
+          <i data-lucide="codesandbox"></i>
+        </div>
+        <h1 class="uppercase font-bold text-3xl">Landing Page</h1>
+      </div>
+      <div id="nav-item" class="flex">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Testimonial</a>
+        <a href="#">Contact</a>
+        <a href="#" class="bg-sky-500 text-white hover:bg-sky-700 transition-colors">Buy Now</a>
+      </div>
+      <div class="bg-black py-6 px-2 text-white">
+        <i data-lucide="search"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="hero-wrapper">
+      <section id="hero"
+        class="custom-section flex justify-center items-start flex-col px-4 py-3 md:px-16 lg:px-32 relative text-white">
+        <div id="hero-graphic" class="rounded-lg absolute h-1/2 w-2 bg-gradient-to-b from-sky-400 to-blue-950"></div>
+        <div class="z-0 ps-6 flex flex-col gap-4">
+          <h3 class="uppercase text-lg font-semibold tracking-widest">we are creative</h3>
+          <h2 class="uppercase text-4xl font-semibold">creative digital agency</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat laboriosam tempora porro iste ad!
+          </p>
+          <div class="flex gap-3">
+            <button
+              class="bg-gradient-to-r from-sky-400 to-blue-950 py-2 px-6 uppercase text-xs font-bold text-white rounded-full hover:opacity-80 transition-all">Read
+              More</button>
+            <button
+              class="py-2 px-6 text-xs font-bold border-2 rounded-full border-white hover:bg-white hover:text-black uppercase transition-all">Request
+              consultancy</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <section id="feature" class="bg-gradient-to-r from-sky-400 to-blue-950 py-11 px-4 md:px-16 lg:px-32 flex gap-8">
+      <div class="text-white">
+        <div class="flex items-center gap-7 mb-3">
+          <div class="border-4 p-2 rounded-full">
+            <i data-lucide="rocket"></i>
+          </div>
+          <h3 class="text-xl uppercase font-bold">Launch Business</h3>
+        </div>
+        <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos asperiores aperiam odio.
+        </p>
+      </div>
+
+      <div class="text-white">
+        <div class="flex items-center gap-7 mb-3">
+          <div class="border-4 p-2 rounded-full">
+            <i data-lucide="headset"></i>
+          </div>
+          <h3 class="text-xl uppercase font-bold">Online Support Team</h3>
+        </div>
+        <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos asperiores aperiam odio.
+        </p>
+      </div>
+
+      <div class="text-white">
+        <div class="flex items-center gap-7 mb-3">
+          <div class="border-4 p-2 rounded-full">
+            <i data-lucide="clock-3"></i>
+          </div>
+          <h3 class="text-xl uppercase font-bold">Time Management</h3>
+        </div>
+        <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos asperiores aperiam odio.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="px-4 py-3 md:px-16 lg:px-32 flex justify-between items-center custom-section">
+      <div class="w-1/2 flex flex-col items-start gap-4">
+        <h2 class="text-4xl uppercase section-heading pb-1 font-bold">About Us</h2>
+        <h3 class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum architecto in totam nulla
+          dolorem ad.</h3>
+        <p class="leading-8 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus officia, quia
+          laudantium velit, ducimus
+          hic harum necessitatibus aliquid recusandae illum, optio excepturi eos? Recusandae quibusdam culpa, tenetur
+          dolores reiciendis dolorem ducimus odio hic unde quidem. Illo totam eius libero, distinctio velit iusto
+          pariatur praesentium numquam neque impedit labore commodi necessitatibus?</p>
+        <button
+          class="bg-gradient-to-r from-sky-400 to-blue-950 py-2 px-6 uppercase text-xs font-bold text-white rounded-full hover:opacity-80">Read
+          More</button>
+      </div>
+      <div class="relative">
+        <img class="rounded-xl" src="assets/img/corporate-man.jpg" alt="about image">
+        <div class="w-40 h-40 -top-8 -right-8 border-8 rounded-xl border-gradient absolute"></div>
+      </div>
+    </section>
+
+    <section id="services" class="px-4 py-12 md:px-16 lg:px-32 flex flex-col gap-4 bg-sky-100">
+      <h2 class="text-4xl uppercase section-heading pb-1 w-fit font-bold">Services</h2>
+      <div class="flex gap-6">
+        <!-- Card -->
+        <div class="relative w-fit">
+          <img class="aspect-video h-60 rounded-lg object-cover" src="assets/img/img-1.webp" alt="card image">
+          <div class="absolute -bottom-6 right-0 bg-white shadow-xl rounded-full">
+            <div
+              class="rounded-full inline-block p-2 text-white bg-gradient-to-r from-sky-400 to-blue-950 overflow-clip">
+              <i class="inline-block" data-lucide="megaphone"></i>
+            </div>
+            <p class="inline-block px-6 uppercase font-bold">User Experience</p>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="relative w-fit">
+          <img class="aspect-video h-60 rounded-lg object-cover" src="assets/img/img-2.avif" alt="card image">
+          <div class="absolute -bottom-6 right-0 bg-white shadow-xl rounded-full">
+            <div
+              class="rounded-full inline-block p-2 text-white bg-gradient-to-r from-sky-400 to-blue-950 overflow-clip">
+              <i class="inline-block" data-lucide="paintbrush"></i>
+            </div>
+            <p class="inline-block px-6 uppercase font-bold">Creative Design</p>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="relative w-fit">
+          <img class="aspect-video h-60 rounded-lg object-cover" src="assets/img/img-3.webp" alt="card image">
+          <div class="absolute -bottom-6 right-0 bg-white shadow-xl rounded-full">
+            <div
+              class="rounded-full inline-block p-2 text-white bg-gradient-to-r from-sky-400 to-blue-950 overflow-clip">
+              <i class="inline-block" data-lucide="monitor"></i>
+            </div>
+            <p class="inline-block px-6 uppercase font-bold">Retina Ready</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="testiomnial" class="gap-8 px-4 py-12 md:px-16 lg:px-32 bg-gray-200">
+      <h2 class="text-4xl uppercase section-heading pb-1 w-fit font-bold mb-4">Testimonial</h2>
+      <div class="grid grid-cols-2 gap-8">
+
+      <figure class="max-w-screen-md mx-auto text-center border border-gray-400 p-4 rounded-2xl">
+        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+          <path
+            d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+        </svg>
+        <blockquote>
+          <p class="text-base italic text-gray-900">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed corporis ea temporibus, eaque quod."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+          <img class="w-6 h-6 rounded-full"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+          <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
+            <cite class="pe-3 font-medium text-gray-900">Michael Gough</cite>
+            <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="max-w-screen-md mx-auto text-center border border-gray-400 p-4 rounded-2xl">
+        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+          <path
+            d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+        </svg>
+        <blockquote>
+          <p class="text-base italic text-gray-900">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed corporis ea temporibus, eaque quod."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+          <img class="w-6 h-6 rounded-full"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+          <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
+            <cite class="pe-3 font-medium text-gray-900">Michael Gough</cite>
+            <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="max-w-screen-md mx-auto text-center border border-gray-400 p-4 rounded-2xl">
+        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+          <path
+            d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+        </svg>
+        <blockquote>
+          <p class="text-base italic text-gray-900">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed corporis ea temporibus, eaque quod."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+          <img class="w-6 h-6 rounded-full"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+          <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
+            <cite class="pe-3 font-medium text-gray-900">Michael Gough</cite>
+            <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="max-w-screen-md mx-auto text-center border border-gray-400 p-4 rounded-2xl">
+        <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
+          <path
+            d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
+        </svg>
+        <blockquote>
+          <p class="text-base italic text-gray-900">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed corporis ea temporibus, eaque quod."</p>
+        </blockquote>
+        <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+          <img class="w-6 h-6 rounded-full"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture">
+          <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
+            <cite class="pe-3 font-medium text-gray-900">Michael Gough</cite>
+            <cite class="ps-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite>
+          </div>
+        </figcaption>
+      </figure>
+
+    </div>
+
+
+    </section>
+
+    <section id="contact" class="px-4 py-12 md:px-16 lg:px-32">
+      <h2 class="section-heading text-4xl uppercase section-heading pb-1 w-fit font-bold mb-4">Contact Us</h2>
+      <div id="form-wrapper" class="">
+        <form action="https://airform.io/muhammadaneeb63@gmail.com" method="post" class=" flex flex-col items-start">
+          <label for="name">Name:</label>
+          <input class="w-full border border-gray-700 p-2 rounded-lg mb-2" type="text" name="name" id="name"
+            placeholder="Name">
+          <label for="email">Email:</label>
+          <input class="w-full border border-gray-700 p-2 rounded-lg mb-2" type="email" name="email" id="email"
+            placeholder="example@email.com">
+          <label for="message">Message:</label>
+          <textarea class="w-full border border-gray-700 p-2 rounded-lg mb-2" name="message" id="message" cols="30"
+            rows="10" placeholder="">Hey there Aneeb ✌️ Just wanted to quickly say...</textarea>
+          <button
+            class="bg-gradient-to-r from-sky-400 to-blue-950 py-2 px-6 uppercase text-xs font-bold text-white rounded-full hover:opacity-80"
+            type="submit">SEND <i class="inline" data-lucide="send-horizontal"></i></button>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="px-4 md:px-16 lg:px-32 py-4 bg-gradient-to-r from-sky-400 to-blue-950 text-white flex justify-between items-center">
+      <p>&copy; Copyright 2023</p>
+      <div class="px-4 py-3 flex items-center gap-4 text-white">
+        <p class="flex items-center gap-2"><i data-lucide="phone"></i> +92 348 1292229</p>
+        <p>|</p>
+        <p class="flex items-center gap-2"><i data-lucide="mail"></i> muhammadaneeb63@gmail.com</p>
+      </div>
+    </footer>
+  </main>
+  <!-- Production version -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>
